@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.3em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.pad1-y {
+    padding: 10px 0;
+}
+.pad2-y {
+    padding: 20px 0;
+}
+.pad3-y {
+    padding: 30px 0;
+}
+
+#barra_dnav {
+    background: #001a00;
+    color: #d1d8ec;
+    overflow: auto;
+}
+
+#barra_dnav a{
+    color: #fff;
+}
+
+#barra_dnav h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#barra_dnav ul {
+    list-style: none;
+    margin: 0;
+    float: right;
+}
+
+#barra_dnav ul li {
+    float: left;
+}
+
+#barra_dnav ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#barra_dnav ul li a:hover,
+#barra_dnav ul li a.pag_atual {
+    background:  #133a26;
+    color: #ff66b3;
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding-bottom: 0 20px;
+}
+
+#showcase {
+    background: url('../images/Mystery\ Shack\,\ Gravity\ Falls\ 4K\ wallpaper.jpeg') no-repeat center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase_principal {
+    color: #fff;
+    text-align: center;
+    padding-top: 200px;
+}
+
+#showcase .showcase_principal h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+.txt_principal {
+    color: #330000;
+}
+
+.txt_detalhe {
+    font-size: 20px;
+}
+
+#showcase .showcase_principal p {
+    padding-bottom: 20px;
+    line-height-step: 1.7em;
+}
+
+.botao {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #001a00;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background: #133a26;
+    color: #ff66b3;
+}
+
+.botao_cl {
+    background: #f4f4f4;
+    color: #001a00;
+}
+
+#info_prin {
+    height: 500px;
+}
+
+#info_prin .info_img{
+    float: left;
+    width: 50%;
+    background: url('../images/Gravity\ falls\,\ Antoine\ Rousselot.jpeg') no-repeat center center/cover;
+    min-height: 100%;
+}
+
+#info_prin .info_cont {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 170px 30px;
+    overflow: hidden;
+}
+
+.bg_escuro {
+    background: #330000;
+    color: #fff;
+}
+
+.box {
+    float: left;
+    width: 33.333%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+.bg_cl {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg_p {
+    background: #133a26;
+    color: #fff;
+}
+
+#rodape {
+    text-align: center;
+    background: #330000;
+    color: #fff;
+    padding: 20px;
+}
+
+.clr {
+    clear: both;
+}
+
+#info-sobre {
+    background-color: #330000;
+    color: #fff;
+}
+
+.txt-prin {
+    color: #ff66b3;
+}
+
+#info-sobre .info-esquerda {
+    float: left;
+    width: 50%;
+    min-height: 70%;
+    padding: 20Px 0;
+
+}
+
+#info-sobre .info-direita {
+    float: right;
+    width: 50%;
+    min-height: 70%;
+    
+}
+
+#info-sobre .info-direita img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+
+.cbc-esquerda {
+    font-size: 40px;
+}
+
+#reviews {
+    height: 600px;
+    background: url(../images/Tohad\ on\ Twitter.png) no-repeat center center/cover;
+    padding-top: 100px;
+}
+
+#reviews h2{
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#reviews .review {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+#reviews .review img{
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.cbc-form {
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+#form-contato {
+    background-color: #ddd;
+    text-align: center;
+}
+
+#form-contato label{
+    display: block;
+    margin: 5px 0;
+}
+
+#form-contato input,
+#form-contato textarea{
+    width: 50%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+#form-contato textarea {
+    height: 100px;
+}
+
+#form-contato input:focus,
+#form-contato textarea:focus{
+    outline: none;
+    border-color: #133a26;
+}
